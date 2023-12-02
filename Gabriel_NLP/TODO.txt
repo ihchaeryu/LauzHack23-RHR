@@ -1,0 +1,11 @@
+
+TODO:
+ -  Read article about NLP and implement tutorial
+ -  Used pretrained embedding for this usage case
+ 
+
+If there is time:
+
+ -  Use more complex heuristics and weightings for the reviews. 
+    - High sentiment score means more important
+    - Weight by review value. 
