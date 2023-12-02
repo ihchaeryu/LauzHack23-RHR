@@ -1,0 +1,13 @@
+jupyterlab
+ipywidgets
+pandas
+pyarrow
+seaborn
+scikit-learn#=1.2.2
+umap-learn
+matplotlib
+kneed
+scipy
+wordcloud
+numpy
+tabulate
