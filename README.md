@@ -2,7 +2,7 @@
 
 ## 2023 LauzHack AWS & AXA Challenge
 
----
+<br>
 
 ### Team
 
@@ -15,27 +15,32 @@
 1. Extract general problems from customer reviews dataset and present useful feedback
 2. Useful application of LLMs
 
+### Dataset and Tools
+
+- [Amazon Reviews: Unlocked Mobile Phones](https://www.kaggle.com/datasets/PromptCloudHQ/amazon-reviews-unlocked-mobile-phones/)
+- OpenAI API (model: gpt-3.5-turbo)
+
 ### Process and Results
 
-1. Text distilled via LLM
+**1. Text distilled via LLM**
 
 ![LLM summarizing reviews](results/summarizing.png)
 
-2. Embedding text via OpenAI
+**2. Embedding text via OpenAI**
    
 ![Embedding of summaries](results/embedding.png)
 
-3. Clustering via K-Means
+**3. Clustering via K-Means**
 
 ![Clustering visualization](results/clustering.png)
 
-4. Analyzing and extracting cluster themes
+**4. Analyzing and extracting cluster themes**
 
 ![Cluster themes 0, 1](results/clusters_theme1.png)
 
 ![Cluster themes 2, 3](results/clusters_theme2.png)
 
-5. Reliable issues in wordclouds
+**5. Reliable issues in wordclouds**
 
 ![Cluster wordcloud 0](results/clusters_wordcloud1.png)
 
